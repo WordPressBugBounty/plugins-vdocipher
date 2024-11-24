@@ -2,8 +2,8 @@
 Contributors: vibhavsinha, milangupta4
 Tags: video, DRM, video plugin, e-learning
 Requires at least: 3.5.1
-Tested up to: 6.5.3
-Stable tag: 1.29
+Tested up to: 6.7.1
+Stable tag: 1.30
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -80,6 +80,11 @@ On account creation, you shall be provided with 5GB of free trial bandwidth.
 5. Using the shortcode in the classic editor
 
 == Changelog ==
+
+= 1.30 =
+* Add support for user based tracking which requires opt-in
+* Improved the error message displayed in cases of firewall issues
+* Add sanitization of shortcode attributes to block script input
 
 = 1.29 =
 * Added support for more attributes `controls`, `autoplay` and `cc_language`.
@@ -177,6 +182,9 @@ Bug fixes
 * A basic plugin which just makes it possible to embed vdocipher videos inside a wordpress plugin
 
 == Upgrade Notice ==
+
+= 1.30 =
+* Added support for user tracking with opt-in
 
 = 1.29 =
 * Added support for more player v2 attributes.

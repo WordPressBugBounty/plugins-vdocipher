@@ -268,27 +268,43 @@ do_settings_sections('vdo_option-group');
 
         <tr valign="top">
           <th scope="row"></th>
-          <td>
-            <details>
-              <summary style="cursor: pointer">Advanced Options</summary>
-              <div style="margin: 20px 0">
-                <div style="display: inline-flex;">
-                  <div style="width: 300px;">
-                    <label for="vdo_show_plugin_in_sidebar"><strong>Show VdoCipher in sidebar</strong></label>
+            <td>
+              <details>
+                <summary style="cursor: pointer">Advanced Options</summary>
+                  <div style="margin: 40px 0">
+                    <div style="display: inline-flex;">
+                        <div style="width: 300px;">
+                            <label for="vdo_send_user_id_in_api"><strong>Track userId with each video session</strong></label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="vdo_send_user_id_in_api" id="vdo_send_user_id_in_api"
+                                   value="true" <?php echo esc_attr(get_option('vdo_send_user_id_in_api')) == 'true' ? 'checked' : ''; ?>/>
+                        </div>
+                    </div>
+                    <p class="description">
+                        Sending the userId with each dynamically generated embed code makes it possible to track userId<br>
+                        for higher security. It provides piracy tracking and watch time analytics. The primary key of<br>
+                        your users table is used for this purpose.
+                    </p>
                   </div>
-                  <div>
-                    <input type="checkbox" name="vdo_show_plugin_in_sidebar" id="vdo_show_plugin_in_sidebar"
-                           value="true" <?php echo esc_attr(get_option('vdo_show_plugin_in_sidebar')) == 'true' ? 'checked' : ''; ?>/>
+                <div style="margin: 40px 0">
+                  <div style="display: inline-flex;">
+                    <div style="width: 300px;">
+                      <label for="vdo_show_plugin_in_sidebar"><strong>Show VdoCipher in sidebar</strong></label>
+                    </div>
+                    <div>
+                      <input type="checkbox" name="vdo_show_plugin_in_sidebar" id="vdo_show_plugin_in_sidebar"
+                             value="true" <?php echo esc_attr(get_option('vdo_show_plugin_in_sidebar')) == 'true' ? 'checked' : ''; ?>/>
+                    </div>
                   </div>
+                  <p class="description">
+                    Not recommended to be changed. Mark this option unchecked if you like to hide the VdoCipher settings page from the sidebar.<br/>
+                    Once changed, you will need to access this page from inside the Wordpress Settings / Plugins page.
+                  </p>
                 </div>
-                <p class="description">
-                  Not recommended to be changed. Mark this option unchecked if you like to hide the VdoCipher settings page from the sidebar.<br/>
-                  Once changed, you will need to access this page from inside the Wordpress Settings / Plugins page.
-                </p>
-              </div>
-            </details>
+              </details>
 
-          </td>
+            </td>
         </tr>
 
         <!-- Footer -->
