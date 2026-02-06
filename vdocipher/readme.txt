@@ -2,17 +2,17 @@
 Contributors: vibhavsinha, milangupta4
 Tags: video, DRM, video plugin, e-learning
 Requires at least: 3.5.1
-Tested up to: 6.7.1
+Tested up to: 6.8.3
 Stable tag: 1.30
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple wordpress plugin which enables you to embed VdoCipher videos inside a WordPress website with security from piracy.
+WordPress Video Player Plugin for VdoCipher: secure video embed, custom video player, watermark & easy integration with all LMS platforms.
 
 == Description ==
 
-VdoCipher provides video hosting, video playback, and piracy protection solutions for WordPress websites in the e-learning & media field to help them serve content most securely and smoothly. A combination of Hollywood standard DRMs and viewer-specific watermarking ensures that videos can't be downloaded or shared illegally from your platform. A combination of a custom smart player, analytics, and video management suite enables the best viewer and video management experience. We serve 3000+ businesses and 10,000+ content creators' platforms across 120+ countries.
+VdoCipher video plugin secure provides video hosting, video playback, and piracy blocker & identification analytics for WordPress websites in the e-learning & media field to help them serve content most securely and smoothly.  A combination of Hollywood standard DRMs and viewer-specific watermarking, hacker user id identification ensures that videos can’t be downloaded or shared illegally from your platform. With features like custom smart player, video analytics, and video management suite enables the best viewer and video management experience. We serve 3000+ businesses and 10,000+ content creators’ platforms across 120+ countries. VdoCipher video plugin ensures your videos are secure, smooth, and protected.
 
 == VdoCipher’s DRM & Watermark Security Features: ==
 
@@ -32,9 +32,22 @@ VdoCipher provides video hosting, video playback, and piracy protection solution
 * Video Analytics
 * Amazon AWS Server & CDN
 
-== Compatible with Global Popular WordPress LMS & Themes ==
-* Playback and security work well with all popular WordPress LMS like Learndash, LifterLMS, TutorLMS , Sensei, etc. The plugin works at the core backend of WordPress, thus compatible with all LMS.
-* Works well with woocommerce and all membership plugins.
+== Compatible with All Major WordPress LMS & Themes ==
+
+VdoCipher’s plugin works at the WordPress core layer, so playback, DRM security, and per user analytics remain compatible across major LMS and theme stacks.
+
+[Full plugin and security integration tutorial](https://www.vdocipher.com/blog/2022/11/protect-videos-on-wordpress/)
+LMS integrations with step-by-step tutorials:
+
+* [LearnDash](https://www.vdocipher.com/blog/embed-videos-in-learndash/)  
+* [LifterLMS](https://www.vdocipher.com/blog/2020/12/wordpress-lms-video/#1)  
+* [Tutor LMS](https://www.vdocipher.com/blog/embed-video-in-tutor-lms/)  
+* [MemberPress](https://www.vdocipher.com/blog/how-to-embed-videos-on-memberpress/)  
+* [LearnPress](https://www.vdocipher.com/blog/embed-video-in-learnpress/)  
+* [MasterStudy LMS](https://www.vdocipher.com/blog/embed-videos-in-masterstudy-lms/)  
+* [Sensei LMS](https://www.vdocipher.com/blog/2016/10/wordpress-course-plugin-to-sell-online-courses-sensei-tutorial/)
+
+See the full list of supported platforms on our [LMS Partner page](https://www.vdocipher.com/blog/lms-partners-and-plugins/).
 
 == Easy 15-minute integration ==
 
@@ -71,6 +84,66 @@ Please refer to the [FAQ page on VdoCipher](https://www.vdocipher.com/page/faq)
 = Is there a free trial? =
 On account creation, you shall be provided with 5GB of free trial bandwidth.
 
+= How to Install a Video Plugin in WordPress =
+
+- Download the Plugin: Go to the VdoCipher WordPress Plugin page - https://wordpress.org/plugins/vdocipher/
+- Upload the Plugin: In your WordPress dashboard, navigate to Plugins > Add New, click on Upload Plugin, choose the downloaded file, and install it.
+- Activate the Plugin: After installation, click Activate Plugin.
+
+= How to Host Videos on Your WordPress Site =
+
+- Using VdoCipher: Once the VdoCipher plugin is installed, you can upload your videos to VdoCipher and use the provided embed code to display videos on your WordPress site.
+- Embed Videos: Use the shortcode provided by the plugin to embed videos in posts or pages.
+
+= How to Embed a Live Video in WordPress =
+
+- Live Streaming Platforms: Use VdoCipher for live streaming (no DRM for live).
+- Embed Code: Get the live video embed code from your streaming platform and paste it into the HTML block of your WordPress editor.
+
+= How to Embed a Video in WordPress Without YouTube =
+
+- Using VdoCipher: Upload your video to VdoCipher, copy the embed code, and paste it into your WordPress post or page.
+- Alternatively, you can also use the native video block in the WordPress editor to upload videos directly to your media library.
+
+= How to Make a Video Streaming Website on WordPress =
+
+- Choose a Theme: Select a theme optimized for video content.
+- Install Necessary Plugins: Use video hosting plugins like VdoCipher and LMS plugins if you're offering courses.
+- Upload and Embed Videos: Host videos on VdoCipher and embed them using the provided shortcodes.
+
+= How to Upload High-Quality Videos to WordPress =
+
+- Use VdoCipher: Upload high-quality videos to VdoCipher for efficient streaming and protection.
+- Media Library: Ensure your WordPress hosting supports large files and upload limits.
+
+= How to Make a Video Not Downloadable in WordPress =
+
+- Use VdoCipher: VdoCipher provides secure streaming, preventing downloads.
+- Restrict Access: Use plugins to restrict access and prevent direct downloads.
+
+= How to Restrict Downloads in WordPress =
+
+- Use DRM Services: VdoCipher's DRM ensures secure streaming and prevents unauthorised downloads.
+
+= How to Protect Media Files in WordPress =
+
+- VdoCipher DRM: Utilize VdoCipher's DRM services for secure video streaming.
+
+= How to Broadcast a Live Video on WordPress =
+
+- Live Streaming Service: Use a service like VdoCipher with live streaming iframe 
+- Embed Code: Get the embed code and paste it into your WordPress site.
+
+= How to Create a Video Website in WordPress =
+
+- Select Theme: Choose a video-friendly theme.
+- Install Plugins: Install video hosting plugins like VdoCipher.
+- Upload and Embed: Host videos on VdoCipher and embed them on your site.
+
+= Can You Host Video on WordPress? =
+
+Yes, you can host videos directly or use third-party services like VdoCipher for better security and performance.
+
 == Screenshots ==
 
 1. The setting screen for the plugin
@@ -78,6 +151,8 @@ On account creation, you shall be provided with 5GB of free trial bandwidth.
 3. The video player
 4. Customisation preview
 5. Using the shortcode in the classic editor
+6. Video section on your VdoCipher dashboard
+7. Instructions for embedding using plugin
 
 == Changelog ==
 
