@@ -2,7 +2,7 @@
 Contributors: vibhavsinha, milangupta4
 Tags: video, DRM, video plugin, e-learning
 Requires at least: 3.5.1
-Tested up to: 6.8.3
+Tested up to: 7.1
 Stable tag: 1.30
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -12,19 +12,19 @@ WordPress Video Player Plugin for VdoCipher: secure video embed, custom video pl
 
 == Description ==
 
-VdoCipher video plugin secure provides video hosting, video playback, and piracy blocker & identification analytics for WordPress websites in the e-learning & media field to help them serve content most securely and smoothly.  A combination of Hollywood standard DRMs and viewer-specific watermarking, hacker user id identification ensures that videos can’t be downloaded or shared illegally from your platform. With features like custom smart player, video analytics, and video management suite enables the best viewer and video management experience. We serve 3000+ businesses and 10,000+ content creators’ platforms across 120+ countries. VdoCipher video plugin ensures your videos are secure, smooth, and protected.
+VdoCipher video plugin provides secure video hosting, video playback, and piracy blocker & identification analytics for WordPress websites in the e-learning & media field to help them serve content most securely and smoothly. A combination of Hollywood-standard DRMs, viewer-specific watermarking, and hacker user ID identification ensures that videos can’t be downloaded or shared illegally from your platform. Features like a custom smart player, video analytics, and a video management suite enable the best viewer and video management experience. We serve 3000+ businesses and 10,000+ content creators’ platforms across 120+ countries. VdoCipher video plugin ensures your videos are secure, smooth, and protected.
 
 == VdoCipher’s DRM & Watermark Security Features: ==
 
 * Video DRM Encryption to prevent illegal video downloads
-* Dynamic Watermarking based on user ID/email ID/IP address to discourage screen capture. In some cases, screen capture is also blocked on browsers, for the rest of the cases, watermark is a good discouragement.
+* Dynamic Watermarking based on user ID/email ID/IP address to discourage screen capture. In some cases, screen capture is also blocked on browsers; in other cases, the watermark is a good deterrent.
 * Easily customize watermark to change color, transparency, and speed of movement.
 * Domain Restriction. Use a single VdoCipher account to integrate with multiple WordPress websites.
 * Geo, Time, Domain, Authentication Restrictions
 
 == VdoCipher’s Custom Smart Video Player & Video Hosting Suite ==
 
-* Adaptive Streaming based on user internet speed. User can also switch between qualities as per their choice. Quality optimized to ensure playback on slow internet connections,
+* Adaptive Streaming based on user internet speed. Users can also switch between qualities as per their choice. Quality optimized to ensure playback on slow internet connections.
 * Customizable Video Player: Change color, controls on/off, speed change options.
 * Have different themes for different videos/courses.
 * Add Chapters over the video.
@@ -34,9 +34,10 @@ VdoCipher video plugin secure provides video hosting, video playback, and piracy
 
 == Compatible with All Major WordPress LMS & Themes ==
 
-VdoCipher’s plugin works at the WordPress core layer, so playback, DRM security, and per user analytics remain compatible across major LMS and theme stacks.
+VdoCipher’s plugin works at the WordPress core layer, so playback, DRM security, and per-user analytics remain compatible across major LMS and theme stacks.
 
 [Full plugin and security integration tutorial](https://www.vdocipher.com/blog/2022/11/protect-videos-on-wordpress/)
+
 LMS integrations with step-by-step tutorials:
 
 * [LearnDash](https://www.vdocipher.com/blog/embed-videos-in-learndash/)  
@@ -51,7 +52,7 @@ See the full list of supported platforms on our [LMS Partner page](https://www.v
 
 == Easy 15-minute integration ==
 
-* Register for VdoCipher trial or paid account.
+* Register for a VdoCipher trial or paid account.
 * Upload a video and wait for it to complete processing and get ready with encryption.
 * Set up domain restriction from VdoCipher security settings.
 * Install the VdoCipher WordPress plugin. Fill in the API key and other settings like watermark parameters.
@@ -65,24 +66,24 @@ See the full list of supported platforms on our [LMS Partner page](https://www.v
 * [DRM + Watermark video demo](https://www.vdocipher.com/blog/2014/12/add-text-to-videos-with-watermark/)
 * [Full Upload + WordPress Embed Tutorial](https://www.vdocipher.com/blog/vdocipher-wordpress-plugin-embed-watermark-tutorial/)
 
-= Installation =
+== Installation ==
 
-1. Register for VdoCipher trial or paid account on vdocipher.com
+1. Register for a VdoCipher trial or paid account on vdocipher.com
 2. Upload a video and wait for it to complete processing and get ready with encryption.
-3. Set up domain restriction from VdoCipher "Security & Config" section in VdoCipher dashboard settings.
-4. Install VdoCipher WordPress plugin. Fill in the API key and other settings like watermark parameters.
-5. Click on the "embed" button below any video in the dashboard. Please choose the "Wordpress" section and follow the simple steps.
-6. Use simple shortcode to embed in any WordPress page/post/course.
+3. Set up domain restriction from the "Security & Config" section in the VdoCipher dashboard settings.
+4. Install the VdoCipher WordPress plugin. Fill in the API key and other settings like watermark parameters.
+5. Click on the "embed" button below any video in the dashboard. Please choose the "WordPress" section and follow the simple steps.
+6. Use a simple shortcode to embed in any WordPress page/post/course.
 7. Inside a post or page you can write `[vdo id="id_of_video"]` to embed the video in a post or page.
-8. To set width and height use, Example  `[vdo id="id_of_video" width="600" and height="400"]`
-9. You can set custom video player themes from "Custom Player" section. It can be set as default theme from the settings page. It is also possible to modify shortcode to use specific theme for specific video embeds. `[vdo id="c1480d6f057b70578e7f9d33e" vdo_theme="uz6s6vivib"]`
+8. To set width and height, use `[vdo id="id_of_video" width="600" height="400"]`
+9. You can set custom video player themes from the "Custom Player" section. It can be set as the default theme from the settings page. It is also possible to modify the shortcode to use a specific theme for specific video embeds. `[vdo id="c1480d6f057b70578e7f9d33e" vdo_theme="uz6s6vivib"]`
 10. Please contact support@vdocipher.com for more queries.
 
 == Frequently Asked Questions ==
 Please refer to the [FAQ page on VdoCipher](https://www.vdocipher.com/page/faq)
 
 = Is there a free trial? =
-On account creation, you shall be provided with 5GB of free trial bandwidth.
+On account creation, you get 5 GB of free trial bandwidth.
 
 = How to Install a Video Plugin in WordPress =
 
@@ -123,7 +124,7 @@ On account creation, you shall be provided with 5GB of free trial bandwidth.
 
 = How to Restrict Downloads in WordPress =
 
-- Use DRM Services: VdoCipher's DRM ensures secure streaming and prevents unauthorised downloads.
+- Use DRM Services: VdoCipher's DRM ensures secure streaming and prevents unauthorized downloads.
 
 = How to Protect Media Files in WordPress =
 
@@ -131,7 +132,7 @@ On account creation, you shall be provided with 5GB of free trial bandwidth.
 
 = How to Broadcast a Live Video on WordPress =
 
-- Live Streaming Service: Use a service like VdoCipher with live streaming iframe 
+- Live Streaming Service: Use a service like VdoCipher with a live streaming iframe.
 - Embed Code: Get the embed code and paste it into your WordPress site.
 
 = How to Create a Video Website in WordPress =
@@ -146,18 +147,18 @@ Yes, you can host videos directly or use third-party services like VdoCipher for
 
 == Screenshots ==
 
-1. The setting screen for the plugin
+1. The settings screen for the plugin
 2. Attributes available for the shortcode
 3. The video player
-4. Customisation preview
+4. Customization preview
 5. Using the shortcode in the classic editor
 6. Video section on your VdoCipher dashboard
-7. Instructions for embedding using plugin
+7. Instructions for embedding using the plugin
 
 == Changelog ==
 
 = 1.30 =
-* Add support for user based tracking which requires opt-in
+* Add support for user-based tracking which requires opt-in
 * Improved the error message displayed in cases of firewall issues
 * Add sanitization of shortcode attributes to block script input
 
@@ -168,7 +169,7 @@ Yes, you can host videos directly or use third-party services like VdoCipher for
 * Improved documentation
 
 = 1.28 =
-* Added support for player v2 with customisation, light-weight and other features.
+* Added support for player v2 with customization, lightweight and other features.
 * Improved error messages
 * Added option to arrange menu position
 * Settings will be retained on deactivation. Only uninstall will remove it from DB
@@ -181,14 +182,14 @@ Yes, you can host videos directly or use third-party services like VdoCipher for
     an option to update to new settings.
 
 = 1.25 =
-* Added gutenberg block support
+* Added Gutenberg block support
 * More themes
 * auto upgrade of player version
 * Fixed undefined notice message
 * Fixed some more bugs
 * Better handling of video aspect ratio
 * Fairplay support in player
-* detailed analytics support in wordpress
+* detailed analytics support in WordPress
 
 = 1.24 =
 * Bug fixes
@@ -210,7 +211,7 @@ Yes, you can host videos directly or use third-party services like VdoCipher for
 * default player version set to 1.5.0
 * corrected bugs
 * height auto available
-* player tech over-ride enabled to play exclusively html5, flash, zen player
+* player tech override enabled to play exclusively html5, flash, zen player
 
 = 1.19 =
 * add new player
@@ -248,13 +249,13 @@ Bug fixes
 * Compatible with PHP5.2
 
 = 1.0 =
-* Annotation can now be set from wordpress dashboard
+* Annotation can now be set from WordPress dashboard
 * Better system for storing client key
 * Clear options table of plugin related keys on deactivate
 * Include options form to set default options for videos.
 
 = 0.1 =
-* A basic plugin which just makes it possible to embed vdocipher videos inside a wordpress plugin
+* A basic plugin which just makes it possible to embed VdoCipher videos inside a WordPress site
 
 == Upgrade Notice ==
 
@@ -266,7 +267,7 @@ Bug fixes
 * Added better documentation.
 
 = 1.28 =
-* Added support to play version 2 of video player with more customisation
+* Added support to play version 2 of video player with more customization
 
 = 1.27 =
 * Added the ability to set custom speed options on player
@@ -298,7 +299,7 @@ Bug fixes
 * default player version set to 1.5.0
 * corrected bugs
 * height auto available
-* player tech over-ride enabled to play exclusively html5, flash, zen player
+* player tech override enabled to play exclusively html5, flash, zen player
 
 = 1.17 =
 * updated player theme
@@ -307,7 +308,7 @@ Bug fixes
 Bug fixes
 
 = 1.7 =
-* watermark date in wordpress timezone
+* watermark date in WordPress timezone
 
 = 1.6 =
 * annotation pre and post process hooks to add content specific custom variables
